@@ -1,0 +1,7 @@
+.headerThumbnail {
+  transform: scale(1.05) translateX(0);
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+.headerThumbnail:hover {
+  transform: scale(1.05) translateX(-5px);
+}

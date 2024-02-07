@@ -1,3 +1,9 @@
+import MainHeader from '@/components/header/MainHeader';
+
 export default function Home() {
-  return <div className="xl:container"></div>;
+  return (
+    <main>
+      <MainHeader />
+    </main>
+  );
 }

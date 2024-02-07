@@ -54,6 +54,9 @@ module.exports = {
         body: '-0.00625rem',
         small: '-0.00625rem',
       },
+      gridTemplateColumns: {
+        header: '1fr 1.54fr',
+      },
     },
   },
   plugins: [],
