@@ -1,7 +1,7 @@
 import MainNav from '@/components/Nav/MainNav';
+import SecondaryNav from '@/components/Nav/SecondaryNav';
 import { Gowun_Dodum } from 'next/font/google';
 import './globals.css';
-import SecondaryNav from '@/components/Nav/SecondaryNav';
 
 const gowun = Gowun_Dodum({ subsets: ['latin'], weight: '400', preload: true });
 
